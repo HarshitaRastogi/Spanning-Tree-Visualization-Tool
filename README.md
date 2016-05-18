@@ -36,5 +36,5 @@ Run the script:
 $ python finalscript1.py 
 This creates son files dynamically in the folder where the script is run. 
 
-Open the Frontage.html
+Open the HAM.html
 View the output 
