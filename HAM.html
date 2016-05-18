@@ -1,13 +1,55 @@
 <!DOCTYPE html>
 <html>
+    <head><style> 
+
+a {
+    color: blue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.center {
+    margin: auto;
+    width: 20%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+#colors{color:red;}
+</style></head>
 <body>
 
 
-<p><a href="physical_topology.html">Click for Physical Topology</a></p>
-<p><a href="MST0.html">Click for CIST (MST0)</a></p>
-<p><a href="MST1.html">Click for MST1</a></p>
-<p><a href="MST2.html">Click for MST2</a></p>
-<p><a href="MST3.html">Click for MST3</a></p>
+
+<div class="center">
+<div class="dropdown">
+  <span>Spanning Tree Visualization Tool</span>
+  <div class="dropdown-content">
+<p>1. <a href="Physical_topology.html">Click for Physical Topology</a></p>
+<p>2. <a href="MST0.html">Click for CIST (MST0)</a></p>
+<p>3. <a href="MST1.html">Click for MST1</a></p>
+<p>4. <a href="MST2.html">Click for MST2</a></p>
+<p>5. <a href="MST3.html">Click for MST3</a></p>
+  </div>
+</div>
+</div>
+
+<p id="colors"><marquee>Problem Isolation: If you observe more than one Root Bridge/undefined port roles/constant changes while refreshing the page/unexpected behaviour, check STP configuration on the switch invloved.</marquee></p>
+
 
 </body>
 </html>
+
