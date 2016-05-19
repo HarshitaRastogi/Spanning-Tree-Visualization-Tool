@@ -34,7 +34,7 @@ password for each switch and define transport mechanism as https.
 
 Run the script:
 $ python finalscript1.py 
-This creates son files dynamically in the folder where the script is run. 
+This creates json files dynamically in the folder where the script is run. 
 
 Open the HAM.html
 View the output 
